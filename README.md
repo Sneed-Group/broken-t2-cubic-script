@@ -1,6 +1,6 @@
 # t2-debian-script
 
-A script to install packages needed to use Debian with a T2-based mac.
+A script to install packages needed to recreate the Luna Linux project from a fresh Debian Testing install with Cinnamon desktop. (Needs internet!)
 
 ## Donate if you like this software!
 
