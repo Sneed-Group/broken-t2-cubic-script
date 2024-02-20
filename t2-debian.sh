@@ -14,4 +14,7 @@ sudo systemctl enable --now iwd
 sudo systemctl restart NetworkManager
 git clone https://github.com/kekrby/t2-better-audio
 cd t2-better-audio
-./install.sh
+sudo ./install.sh
+cd ..
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
