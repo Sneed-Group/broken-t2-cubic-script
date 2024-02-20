@@ -18,5 +18,5 @@ sudo ./install.sh
 cd ..
 sudo apt install flatpak
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-sudo apt remove deluge* hexchat* remmina* totem* gnome-sound-recorder
+sudo apt remove deluge* hexchat* remmina* totem* gnome-sound-recorder rhythmbox cheese
 sudo apt install vlc audacity kdenlive
