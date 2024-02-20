@@ -6,7 +6,7 @@ sudo update_t2_kernel
 sudo apt install apple-t2-audio-config tiny-dfr zstd
 wget http://nodemixaholic.com:3002/nodemixaholic/apple-broadcom-firmware-arch/raw/branch/main/apple-bcm-firmware-14.0-1-any.pkg.tar.zst
 zstd -d -c apple-bcm-firmware-14.0-1-any.pkg.tar.zst | tar -xvf -
-sudo cp -r usr/* /usr/
+sudo cp -r ./usr/* /usr/
 sudo apt install iwd
 sudo sed -i 's/^wifi\.backend.*/wifi.backend=iwd/' /etc/NetworkManager/NetworkManager.conf
 sudo systemctl enable --now iwd
