@@ -1,4 +1,4 @@
-# t2-debian-script
+# t2-cubic-script
 
 A script to install packages needed to recreate the Luna Linux project from Cubic Ubuntu Server.
 
