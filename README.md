@@ -1,6 +1,6 @@
-# t2-debian-script
+# t2-ubuntu-script
 
-A script to install packages needed to recreate the Luna Linux project from a fresh Debian Testing install with Cinnamon desktop. (Needs internet!)
+A script to install packages needed to recreate the Luna Linux project from Cubic. (Needs internet!)
 
 ## Donate if you like this software!
 
